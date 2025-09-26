@@ -31,18 +31,6 @@ body { max-width: 1920px; overflow-x: hidden; background:#171920; font-weight: 2
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
  
 
 
@@ -82,7 +70,7 @@ body { max-width: 1920px; overflow-x: hidden; background:#171920; font-weight: 2
 
  .section-title { color: #FFC999; font-size: 32px; margin-bottom: 20px; letter-spacing: 2px; position: relative; } 
 
- .education-item {padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1); display: flex; } 
+ .education-item {padding: 10px 0; display: flex; } 
 
  .education-item:last-child { border-bottom: none; } 
 
@@ -100,7 +88,7 @@ body { max-width: 1920px; overflow-x: hidden; background:#171920; font-weight: 2
 
  .skill-category h3 { color: #ffffff; font-size: 24px; margin-bottom: 20px; } 
 
- .skill-icons { display: flex; flex-wrap: wrap; gap: 20px; } 
+ .skill-icons { display: flex; flex-wrap: wrap; gap: 25px; } 
 
  .skill-icon { width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(255, 255, 255, 0.1); transition: all 0.3s ease; cursor: pointer; position: relative; } 
 
@@ -195,7 +183,7 @@ body { max-width: 1920px; overflow-x: hidden; background:#171920; font-weight: 2
  .bg-rect { width: 250px; height: 250px; background: rgba(240, 171, 123, 0.1); bottom: 100px; left: 50%; transform: translateX(-50%) rotate(45deg); }  */
 
  /* 메인 컨텐츠 */
- .project-container { display: flex; align-items: center; gap: 100px; min-height: 70vh; } 
+ .project-container { display: flex; align-items: center; gap: 100px; min-height: 70vh; position: relative; margin-top: 150px; } 
 
  /* 왼쪽 - 노트북 이미지 */
  /* .project-left { flex: 1; position: relative; top: 100px; left: -100px;}  */
@@ -235,7 +223,7 @@ body { max-width: 1920px; overflow-x: hidden; background:#171920; font-weight: 2
 
  .tool-icon img { width: 24px; height: 24px; object-fit: contain; } 
 
- .dive-button { background:#fff; border: none; padding: 15px 40px; border-radius: 50px; color: #2a3142; font-size: 16px; font-weight: bold; cursor: pointer; transition: all 0.3s ease; text-decoration: none; display: inline-block; } 
+ .dive-button { background:#fff; border: none; padding: 15px 40px; border-radius: 50px; color: #2a3142; font-size: 16px; font-weight: bold; cursor: pointer; transition: all 0.3s ease; text-decoration: none; display: inline-block; cursor: pointer; } 
 
  .dive-button:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(240, 171, 123, 0.4); background:  linear-gradient(135deg, #F4A259, #E8986A);} 
 
